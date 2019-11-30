@@ -18,6 +18,7 @@ class ViewController: UIViewController {
 //            myImageView.image = UIImage.init(contentsOfFile: path)
 //        }
         myImageView.image = UIImage(named: "mypic1")
+        self.view.backgroundColor = UIColor(named: "myColor")
     }
 
 
