@@ -16,13 +16,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YlT-Tp-Nzh">
-                                <rect key="frame" x="60" y="206" width="255" height="255"/>
+                                <rect key="frame" x="60" y="163.5" width="255" height="340"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="YlT-Tp-Nzh" secondAttribute="height" multiplier="1:1" id="dj2-OM-Ty2"/>
+                                    <constraint firstAttribute="width" secondItem="YlT-Tp-Nzh" secondAttribute="height" multiplier="3:4" id="dj2-OM-Ty2"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YlT-Tp-Nzh" secondAttribute="trailing" constant="60" id="Kuh-6y-k4V"/>
                             <constraint firstItem="YlT-Tp-Nzh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SzU-t3-AvP"/>
